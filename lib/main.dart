@@ -11,7 +11,7 @@ class Myapp extends StatelessWidget {
     return new MaterialApp(
       title: "stateless",
       theme: new ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.blue,
       ),
       home: new Loginpage(), //home is of class type
     );
@@ -50,6 +50,7 @@ class _LoginpageState extends State<Loginpage>
         //this is the first children
         children: <Widget>[
           new Image(
+            //assets path must be in pubsec file
             image: new AssetImage("assets/IMG_20190130_153655_274.jpg"),
             fit: BoxFit.cover,
             color: Colors.yellow,
