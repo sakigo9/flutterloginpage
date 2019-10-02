@@ -74,6 +74,7 @@ class _LoginpageState extends State<Loginpage>
                               color: Colors.teal, fontSize: 20.0))),
                   child: new Container(
                     padding: const EdgeInsets.all(40.0),
+                    // Added child for the container
                     child: new Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
